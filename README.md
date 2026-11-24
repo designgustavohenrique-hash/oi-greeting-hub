@@ -1,24 +1,27 @@
-# Oi Greeting Hub
+# Brincaê — Loja de Brinquedos
 
-Oi
+A loja virtual Brincaê foi criada neste repositório como uma página responsiva em HTML, CSS e JavaScript.
 
-This project was built with [Lovable](https://lovable.dev).
+## Recursos
 
-## Build with Lovable
+- Catálogo de pula-pula, bonecas, carrinhos, brinquedos educativos e diversos.
+- Busca e filtros por categoria.
+- Sacola de compras com controle de quantidades e total em reais.
+- Resumo do pedido pronto para copiar e enviar pelo WhatsApp.
+- Layout adaptado para celular e computador.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/2cd3ca3f-c38d-40b0-8bdb-07b31b97c3d6).
+## Visualizar
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+Abra o arquivo `index.html` no navegador.
 
-## Development
+## Publicar com GitHub Pages
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+1. Abra **Settings** neste repositório.
+2. Entre em **Pages**.
+3. Em **Build and deployment**, escolha **Deploy from a branch**.
+4. Selecione **main** e a pasta **/(root)**.
+5. Clique em **Save** e aguarde o endereço ser publicado.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+## Importante antes de vender
+
+Esta versão é uma vitrine demonstrativa. Ela ainda não processa pagamentos, não controla estoque e não envia pedidos automaticamente. Os produtos e preços são exemplos. Edite o array `products` no final de `index.html` e configure o WhatsApp comercial antes de divulgar a loja.
